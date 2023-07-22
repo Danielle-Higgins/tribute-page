@@ -1,1 +1,2 @@
 # tribute-page
+This project is a project that I made a couple of years back and I decided to rebuild it and put it inside its own repo. It's a tribute page dedicated to one of my favorite female artists.
