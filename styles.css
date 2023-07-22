@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: yellow;
+}
+
+h2, h3 {
+    border: 2px solid black;
+    border-radius: 100px;
+    max-width: 400px;
+    margin: 0 auto 50px auto;
+    box-shadow: 0 10px 30px gray;
+}
+
+.header, .figure {
+    /* border: 2px solid black; */
+    padding: 15px 0;
+}
+
+.header h1 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.figure img {
+    min-width: 900px;
+    border-radius: 200px;
+    box-shadow: 0 10px 30px gray;
+    margin-bottom: 50px;
+}
+
+.info, .childhood {
+    /* border: 2px solid black; */
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.info p {
+    text-align: left;
+}
+
+.childhood ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.career {
+    /* border: 2px solid black; */
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.career ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.albums {
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+.albums p {
+    margin: 20px 0;
+}
+
+.album-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.album-list div {
+    max-width: 300px;
+    text-align: center;
+}
+
+.album-list img {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.footer {
+    /* border: 2px solid black; */
+    height: 100px;
+    background-color: rgb(234, 234, 20);
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
